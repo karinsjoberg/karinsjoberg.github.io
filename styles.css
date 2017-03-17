@@ -1,0 +1,39 @@
+body {
+	background-color: #ecd9c6;
+	margin: 5% 30% 5% 30%
+	
+}
+
+h1 {
+	color: #261a0d;
+}
+
+p {
+	color: 
+}
+
+.img-profile {
+	border-radius: 50%;
+	width: 100%;
+}
+.img-linkedin{
+	border-radius: 50%;
+	width: 10%;
+	padding-right: 30px;
+}
+
+.img-facebook{
+	border-radius: 50%;
+	width: 10%;
+	padding-right: 30px;
+}
+
+.img-instagram{
+	border-radius: 50%;
+	width: 10%;
+}
+
+.text-one {
+
+
+}
