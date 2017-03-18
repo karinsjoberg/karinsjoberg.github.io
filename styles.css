@@ -1,5 +1,11 @@
 body {
-	background-color: #f2f2f2;
+	background: #f2f2f2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#cccccc, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cccccc, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cccccc, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cccccc, #ffffff); /* Standard syntax */
+	width: 100%;
+
 }
 
 .wrapper {
@@ -13,6 +19,19 @@ h1 {
 
 h2 {
 	color: black;
+}
+
+a {
+	color: black;
+	text-decoration: none;
+}
+
+footer {
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+
 }
 
 .abroad {
@@ -55,22 +74,32 @@ h2 {
 
 .img-profile {
 	border-radius: 50%;
-	width: 100%;
+	width: 70%;
 }
 
 .fa-linkedin {
 	padding-right: 30px;
+	color: black;
 }
 
 .fa-facebook{
 	border-radius: 50%;
 	width: 5%;
 	padding-right: 30px;
+	color: black;
 }
 
 .fa-instagram {
 	border-radius: 50%;
 	width: 5%;
+	padding-right: 30px;
+	color: black;
+}
+
+.fa-envelope-o {
+	border-radius: 50%;
+	width: 5%;
+	color: black;
 }
 
 .img-ebfa {
@@ -105,6 +134,20 @@ h2 {
 }
 
 @media only screen and (min-width: 550px) {
+	body {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.wrapper {
+		width: 80%;
+	}
+
+	footer {
+		width: 100%,
+	}
+
 	.box-four {
 		display: inline-block;
 		width: 40%;

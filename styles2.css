@@ -1,0 +1,19 @@
+body {
+	background: #f2f2f2; /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(#cccccc, #ffffff); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#cccccc, #ffffff); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#cccccc, #ffffff); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#cccccc, #ffffff); /* Standard syntax */
+	width: 100%;
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+
+footer  {
+	background-color: #ffffff;
+	width: 100%;
+	text-align: center;
+	padding: 20px;
+
+}
