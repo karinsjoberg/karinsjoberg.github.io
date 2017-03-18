@@ -1,14 +1,56 @@
 body {
-	background-color: white;
-	margin: 5% 5% 5% 5%;	
+	background-color: #f2f2f2;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
 }
 
 h1 {
 	color: #261a0d;
 }
 
-p {
-	color: 
+h2 {
+	color: black;
+}
+
+.abroad {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 50px
+}
+
+.box-one {
+	text-align: center;
+	width: 90%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+
+.box-two {
+	width: 84%;
+	margin: 0 auto;
+	text-align: center;
+	padding: 20px;
+}
+
+.box-three {
+	text-align: center;
+}
+
+.box-four {
+	text-align: center;
+}
+
+.box-five {
+	text-align: center;
+}
+
+.img-center {
+	display: block;
+	margin: auto;
 }
 
 .img-profile {
@@ -16,26 +58,27 @@ p {
 	width: 100%;
 }
 
-.img-linkedin{
-	border-radius: 50%;
-	width: 10%;
+.fa-linkedin {
 	padding-right: 30px;
 }
 
-.img-facebook{
+.fa-facebook{
 	border-radius: 50%;
-	width: 10%;
+	width: 5%;
 	padding-right: 30px;
 }
 
-.img-instagram{
+.fa-instagram {
 	border-radius: 50%;
-	width: 10%;
+	width: 5%;
 }
 
 .img-ebfa {
-	width: 20%;
-	padding-top: 50px;
+	width: 200px;
+}
+
+.img-weyler {
+	width: 50px;
 }
 
 .img-contact{
@@ -43,26 +86,47 @@ p {
 	padding-top: 50px;
 }
 
-.img-weyler {
-	width: 50%;
-	padding-top: 15px;
-	padding-bottom: 5px;
-}
-
 .text-one {
 	font-size: 90%;
-	padding-bottom: 15px;
 	font-style: helvetica;
+	text-align: justify;
 }
 
 .work-one {
 	font-size: 80%;
 	font-style: helvetica;
+	text-align: justify;
 }
 
 .work-two {
 	font-size: 80%;
 	font-style: helvetica;
-	padding-bottom: 50px;
+	text-align: justify;
+}
+
+@media only screen and (min-width: 550px) {
+	.box-four {
+		display: inline-block;
+		width: 40%;
+		margin: 20px;
+		vertical-align: top;
+	}
+
+	.box-five {
+		display: inline-block;
+		width: 40%;
+		margin: 20px;
+		vertical-align: top;
+	}
+
+	.image-size {
+		height: 50px;
+	}
+
+	.section {
+		width: 100%;
+		text-align: center;
+	}
+
 }
 
