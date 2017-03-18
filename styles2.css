@@ -6,14 +6,35 @@ body {
     background: linear-gradient(#cccccc, #ffffff); /* Standard syntax */
 	width: 100%;
 
-.wrapper {
-	width: 90%;
-	margin: 0 auto;
+}
 
-footer  {
+footer {
 	background-color: #ffffff;
 	width: 100%;
 	text-align: center;
 	padding: 20px;
 
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+.img-montpellier {
+	width: 180px;
+}
+
+.img-weyler {
+	width: 220px;
+}
+
+.head-one {
+	font-style: bold;
+	font-size: 12px;
+}
+
+.small-text {
+	font-size: 12px;
+	text-align: justify;
 }
