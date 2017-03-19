@@ -129,6 +129,51 @@ footer {
 	text-align: justify;
 }
 
+/* Det som låg i styles2 */
+
+/*.img-montpellier {
+	width: 290px;
+}
+
+.img-wellington {
+	width: 290px;
+}
+
+.img-dublin {
+	width: 290px;
+}
+
+.img-berlin {
+	width: 290px;
+}*/
+
+.head-one {
+	font-style: bold;
+	font-size: 16px;
+}
+
+.small-text {
+	font-size: 14px;
+	text-align: justify;
+}
+
+.dublin.box {
+	text-align: center;
+}
+
+.montpellier-box {
+	text-align: center;
+}
+
+.image-size {
+	width: 200px;
+	margin: 0 auto;
+}
+
+.img-size {
+	width: 200px;
+}
+
 @media only screen and (min-width: 550px) {
 	body {
 		width: 100%;
@@ -137,7 +182,7 @@ footer {
 	}
 
 	.wrapper {
-		width: 80%;
+		width: 90%;
 	}
 
 	footer {
@@ -158,7 +203,7 @@ footer {
 		vertical-align: top;
 	}
 
-	.image-size {
+	.image-size-one {
 		height: 50px;
 	}
 
@@ -166,6 +211,39 @@ footer {
 		width: 100%;
 		text-align: center;
 	}
+
+	.berlin-box {
+		display: inline-block;
+		width: 40%;
+		margin: 20px;
+		vertical-align: top;
+	}
+
+	.montpellier-box {
+		display: inline-block;
+		width: 40%;
+		margin: 20px;
+		vertical-align: top;
+	}
+
+	.section {
+		width: 100%;
+		text-align: center;
+	}
+
+	.image-size {
+		width: 200px;
+		margin: 0 auto;
+	}
+
+	.img-size {
+		width: 200px;
+	}
+
+/*	.img-wellington {
+		height: 60%;
+		width: 60%;
+	}*/
 
 }
 
