@@ -4,7 +4,7 @@ body {
     background: -o-linear-gradient(#cccccc, #ffffff); /* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(#cccccc, #ffffff); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#cccccc, #ffffff); /* Standard syntax */
-	width: 100%;
+	
 
 }
 
@@ -24,7 +24,6 @@ a {
 
 footer {
 	background-color: #ffffff;
-	width: 100%;
 	text-align: center;
 	padding: 20px;
 
@@ -168,10 +167,6 @@ footer {
 		width: 90%;
 	}
 
-	footer {
-		width: 100%,
-	}
-
 	.box-four {
 		display: inline-block;
 		width: 40%;
@@ -207,11 +202,6 @@ footer {
 		width: 40%;
 		margin: 20px;
 		vertical-align: top;
-	}
-
-	.section {
-		width: 100%;
-		text-align: center;
 	}
 
 	.image-size {
