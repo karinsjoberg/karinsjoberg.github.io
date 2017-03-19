@@ -22,20 +22,24 @@ footer {
 }
 
 .img-montpellier {
-	width: 180px;
+	width: 290px;
 }
 
-.img-weyler {
-	width: 220px;
+.img-wellington {
+	width: 290px;
 }
 
 .img-dublin {
 	width: 290px;
 }
 
-
 .img-berlin {
 	width: 290px;
+}
+
+.img-center {
+	display: block;
+	margin: auto;
 }
 
 .head-one {
@@ -46,4 +50,58 @@ footer {
 .small-text {
 	font-size: 14px;
 	text-align: justify;
+}
+
+.dublin.box {
+	text-align: center;
+}
+
+.montpellier-box {
+	text-align: center;
+}
+
+@media only screen and (min-width: 550px) {
+
+	body {
+		width: 100%;
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	.wrapper {
+		width: 80%;
+	}
+
+	footer {
+		width: 100%,
+	}
+
+	.berlin-box {
+		display: inline-block;
+		width: 40%;
+		margin: 20px;
+		vertical-align: top;
+	}
+
+	.montpellier-box {
+		display: inline-block;
+		width: 40%;
+		margin: 20px;
+		vertical-align: top;
+	}
+
+	.section {
+		width: 100%;
+		text-align: center;
+	}
+
+	.image-size {
+		height: 60%;
+		width: 60%;
+	}
+
+	.img-wellington {
+		height: 60%;
+		width: 60%;
+	}
 }
